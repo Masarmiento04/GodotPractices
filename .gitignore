@@ -1,0 +1,36 @@
+# Directorios de Godot
+/.godot
+/export
+/export_templates
+/ios
+/android
+
+# Archivos de configuración de Godot
+/project.godot
+/project.settings
+/scenes/.scene
+
+# Archivos temporales
+/*.tmp
+/.*.swp
+
+# Binarios y compilados
+/*.exe
+/*.apk
+/*.ipa
+/*.pdb
+
+# Directorios de sistema operativo
+/.DS_Store
+/Thumbs.db
+
+# Archivos de depuración
+/*.dbg
+/*.pdb
+
+# Archivos de logs
+/logs
+/*.log
+
+# Directorio de cache de Godot
+/.cache
