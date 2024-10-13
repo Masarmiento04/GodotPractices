@@ -1,36 +1,40 @@
-# Directorios de Godot
-/.godot
-/export
-/export_templates
-/ios
-/android
+# Godot-specific files
+.export/
+export.cfg
+export_presets.cfg
 
-# Archivos de configuración de Godot
-/project.godot
-/project.settings
-/scenes/.scene
+# Godot editor settings (user-specific)
+.editor_settings-*
+config/*.remap
 
-# Archivos temporales
-/*.tmp
-/.*.swp
+# File backups
+*.tmp
+*.swap
+*.backup
+*.log
 
-# Binarios y compilados
-/*.exe
-/*.apk
-/*.ipa
-/*.pdb
+# Crash logs
+*.log
+*.crash
 
-# Directorios de sistema operativo
-/.DS_Store
-/Thumbs.db
+# Mono-specific files (if you're using C# in Godot)
+.mono/
+mono_crash.*
+*.csproj
+*.sln
+*.user
+*.import
+*.mono
 
-# Archivos de depuración
-/*.dbg
-/*.pdb
+# Godot Android export files
+android/build/
 
-# Archivos de logs
-/logs
-/*.log
+# Godot iOS export files
+ios/build/
 
-# Directorio de cache de Godot
-/.cache
+# Import/Cache files (auto-generated, don't need to be in version control)
+.import/
+.cache/
+
+# Godot-generated folders for exporting projects
+bin/

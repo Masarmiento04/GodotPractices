@@ -13,7 +13,6 @@ SPEED = 150.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-4.15846e-07, 13.9535)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_h2vba")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
